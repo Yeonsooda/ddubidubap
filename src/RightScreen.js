@@ -1,21 +1,18 @@
 import React from 'react';
-import './rightscreen.css';
-import img03 from './image/siworld.gif';
-import img04 from './image/minimi.png';
+import MainRight from './main/MainRight';
+import { Route, Routes } from 'react-router-dom';
+import MainSignupRight from './main/MainSignupRight';
 
-/* class RightScreen extends Component {
-    render() { */
-function RightScreen() {
+const RightScreen = () => {
     return (
         <div id="ifright">
-            <div className='mainHome'>
-            <img src={img03} width='750' height='450'/> 
-            <br/><br/>              
-            이곳은 여러분의 스마일 월드입니다.<img src={img04} width='50'/>
-            </div>       
+            <Routes>
+                <Route path="/" element={<MainRight/>} exact></Route>
+                <Route path="/signup" element={<MainSignupRight/>}></Route>
+            </Routes>
+            
         </div>
     );
-   /*  }  */   
-}
+};
 
 export default RightScreen;

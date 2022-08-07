@@ -1,0 +1,75 @@
+#ifleft {
+    /* display: inline-block; */
+    background-color: white;
+    width: 90%;
+    height: 85%;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    top: 40px;
+    border: solid #aaaaaa;
+    border-width: 3px;
+    font-family: "a옛날사진관1";  
+    font-weight: bold;
+  }  
+
+.loginContainer {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 180px;
+    left: 15px;
+    top: 10px;
+    position: relative;    
+}
+
+.loginContainer_sub{
+    margin-left: 15px;
+
+}
+
+.loginInput {
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.loginBtn {
+    margin-top: 5px;
+    background-color: rgb(253, 117, 7);
+    color: white;
+    border: none;
+    width: 55px;
+    height: 83px;
+    font-family: "a옛날사진관1";  
+    font-weight: bold;
+}
+
+.resetBtn {
+    margin: 10px 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 25px;
+    font-family: "a옛날사진관1";  
+    font-weight: bold;
+}
+
+.loginEtcContainer{
+    width: 310px;    
+}
+
+.loginEtcFont {
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.signupBtn, .finderBtn {
+    font-size: 10px;
+    float: right;
+    color: gray;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    font-family: "a옛날사진관1";  
+    font-weight: bold;
+}
