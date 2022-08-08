@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Link } from 'react-router-dom';
 import LeftScreen from './LeftScreen';
 import RightScreen from './RightScreen';
@@ -8,7 +9,8 @@ import img02 from './image/searchicon.png';
 
 /* class App extends Component {
   render() {  */
-function App(history) {       
+/* function App(history) {  */ 
+function App() {     
   return (
     <BrowserRouter>
       <div id="page">
@@ -16,7 +18,7 @@ function App(history) {
           <div id="dotleft">
             <Link to='/'>
             <div className='logo'>{/* 로고 클릭 시 홈으로 이동 시키기 */} 
-            <img src={img01} alt='logo' width='200' onClick={()=> {history.push('/')}}/>
+            <img src={img01} alt='logo' width='200' /> {/* onClick={()=> {history.push('/')}} */}
             </div>
             </Link>
             <LeftScreen/>

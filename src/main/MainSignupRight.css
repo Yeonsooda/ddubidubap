@@ -1,0 +1,35 @@
+.signupContainer_main {
+    width: 780px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.signupFormMsg {
+    margin: 15px 0px 20px 0px;
+    font-family: a옛날사진관3;
+    font-size: 11.5pt;
+    text-align: center;
+    float: left; 
+}
+.panel {
+    width: 450px;
+    text-align: center;
+    /* position: relative;  */
+    float: left;
+}
+.signupTitle {
+    float: left;
+    font-family: a옛날사진관3;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.ad {    
+    width: 250px;
+    height: 600px;
+    float: right;
+    margin-top: 50px; 
+}
+

@@ -5,13 +5,14 @@ import img04 from '../image/minimi.png';
 
 /* class RightScreen extends Component {
     render() { */
-function MainRight() {
+/* function MainRight() { */
+const MainRight = () => {
     return (
         <div>
             <div className='mainHome'>
-            <img src={img03} width='750' height='450'/> 
+            <img src={img03} width='750' height='450' alt='miniroom'/> 
             <br/><br/>              
-            이곳은 여러분의 스마일 월드입니다.<img src={img04} width='50'/>
+            이곳은 여러분의 스마일 월드입니다.<img src={img04} width='50' alt='minimi'/>
             </div>       
         </div>
     );
