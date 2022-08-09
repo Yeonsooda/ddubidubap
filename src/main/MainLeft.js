@@ -43,7 +43,7 @@ const MainLeft = () => {
                         </tr>
                         <tr>
                             <td>
-                                <input type="text" placeholder="비밀번호를 입력하세요!" value={pwd} onChange={onChangePwd} className="loginInput"/>
+                                <input type="password" placeholder="비밀번호를 입력하세요!" value={pwd} onChange={onChangePwd} className="loginInput"/>
                             </td>
                         </tr>
                     </tbody>
